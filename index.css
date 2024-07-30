@@ -1,0 +1,175 @@
+body {
+    /* font-family: "Badoni MT"; */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+header {
+    background:  #f56464;
+    color: black;
+    padding: 0.1rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+}
+
+nav ul li {
+    margin: 0 20px;
+    
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: "Bodoni MT";
+    font-size: 1.9rem;
+    
+}
+
+.nav-bar-image {
+    width: 30px;
+    height: 50px;
+    align-self: flex-start;
+    
+}
+
+.top-section-container {
+    display: flex;
+    flex-wrap: wrap;
+    background: linear-gradient(to right, #f7e9a8,#f58cee);   
+    justify-content: space-between;
+    padding: 20px;  
+    width: 100%;  
+}
+
+.top-next-container {
+    flex: 1;
+    padding: 5px;
+    text-align: left;
+    margin-left: 50px ;
+    margin-top: 50px;
+}
+.top-section-heading{
+    font-size: 50px;
+}
+
+
+.top-section-heading, .bottom-section-heading {
+    margin-bottom: 20px;
+
+    
+    
+}
+.bottom-section-container{
+    background: linear-gradient(to right, #f7e9a8,#f58cee);  
+    width: 100%; 
+}
+
+
+.top-section-message {
+    margin-bottom: 20px;  
+    font-size: x-large;
+}
+
+.click-me-button {
+    background-color: #f56464;
+    color: white;
+    width: 200px;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.top-image-container, .bottom-section-images-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.top-image-container{
+    height: 860px;
+    
+}
+
+.Image-1 {
+    display: block;
+    margin: 10px auto;
+}
+
+.bottom-section-images-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    height: 400px;
+    width: 200px;
+    margin-left: 300px;
+}
+
+.bottom-section-two-images img {
+    display: block;
+}
+
+.bottom-section-height-image {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 400px;
+    width: 200px;
+    margin-left: 250px;
+    margin-top: -400px;
+}
+
+.bottom-section-text-container{
+    background-color: #f56464;
+    display: block;
+    flex: 1;
+    width: 500px;
+    height: 250px;
+    font-size: x-large;
+    text-align: left;
+    margin-left: 900px;
+    margin-top: -400px;
+}
+
+.bottom-section-lorem{
+    width: 500px;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+
+
+.bottom-section-height-image img{
+    display: block;
+}
+
+.arrow-click-container {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    
+}
+
+.click-heading {
+    margin-right: 10px;
+    
+}
+
+.right-arrow-image {
+    width: 30px;
+    height: auto;
+   
+}
